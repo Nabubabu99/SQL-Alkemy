@@ -1,0 +1,1 @@
+SELECT * FROM PROFESOR WHERE fecha_nacimiento LIKE '%198%' and salario > 80000;
