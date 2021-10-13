@@ -1,0 +1,1 @@
+INSERT into CURSO VALUES(101, 'Algoritmos II', 'Algoritmos y Estructuras de Datos II', 'Tarde', 35);

@@ -1,0 +1,1 @@
+INSERT into CURSO VALUES(103, null, '', 'Tarde', 30);

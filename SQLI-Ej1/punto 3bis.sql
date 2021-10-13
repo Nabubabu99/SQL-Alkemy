@@ -1,0 +1,1 @@
+INSERT into CURSO VALUES(102, 'Matemáticas Discreta', '', 'Tarde', 30);
