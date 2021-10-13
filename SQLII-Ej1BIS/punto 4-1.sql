@@ -1,0 +1,2 @@
+SELECT idpais, COUNT(*)
+FROM PASAJERO GROUP by idpais
