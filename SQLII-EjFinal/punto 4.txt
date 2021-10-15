@@ -1,0 +1,15 @@
+Tabla ESTUDIANTE
+Índices clousterizados = legajo INT
+Índices no clousterizados = No tiene
+
+Tabla INSCRIPCION
+Índices clousterizados = numero INT
+Índices no clousterizados = CURSO_codigo INT | ESTUDIANTE_legajo INT
+
+Tabla CURSO
+Índices clousterizados = codigo INT
+Índices no clousterizados = PROFESOR_id INT
+
+Tabla PROFESOR
+Índices clousterizados = id INT
+Índices no clousterizados = No tiene

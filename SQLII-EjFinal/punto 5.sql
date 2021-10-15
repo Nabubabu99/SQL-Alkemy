@@ -1,0 +1,2 @@
+SELECT DISTINCT e.legajo, e.nombre, e.apellido, e.fecha_nacimiento, e.carrera from ESTUDIANTE e INNER join INSCRIPCION i INNER join CURSO c INNER JOIN PROFESOR p
+WHERE e.legajo = i.ESTUDIANTE_legajo and i.CURSO_codigo = c.codigo AND p.apellido = 'Pérez' or p.apellido = 'Paz'
